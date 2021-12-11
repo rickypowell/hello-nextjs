@@ -8,7 +8,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
         <ul>
           <li>
             <Link href="/">
-              <a className="green" href="/">
+              <a className="green">
                 Home
               </a>
             </Link>

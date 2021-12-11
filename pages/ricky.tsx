@@ -1,9 +1,11 @@
+import Image from "next/image";
+
 export const Ricky = () => {
   return (
     <div>
       <h1>Ricky Page</h1>
       <div>
-        <img src="/tiger.jpg" />
+        <Image src="/tiger.jpg" alt="tiger" width={80} height={80} layout="responsive" />
       </div>
     </div>
   );
