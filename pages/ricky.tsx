@@ -8,7 +8,7 @@ export const Ricky = () => {
         <Image src="/tiger.jpg" alt="tiger" width={80} height={80} layout="responsive" />
       </div>
     </div>
-  );
+  );  
 };
 
 export default Ricky;
