@@ -20,6 +20,13 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
               </a>
             </Link>
           </li>
+          <li>
+            <Link href="/blog">
+              <a className="green">
+                Blog
+              </a>
+            </Link>
+          </li>
         </ul>
       </nav>
       <Component {...pageProps} />
