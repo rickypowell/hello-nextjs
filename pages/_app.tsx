@@ -15,7 +15,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
           </li>
           <li>
             <Link href="/ricky">
-              <a className="green" href="/right">
+              <a className="green">
                 Click here for Ricky page
               </a>
             </Link>
